@@ -1,0 +1,86 @@
+{
+  "camera": "observation.images.front only (wrist removed: judging station has one fixed camera)",
+  "sources": {
+    "sim": [
+      {
+        "root": "/home/ubuntu/work/ds_main/sim_0",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s0:curation/sim_s0_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      },
+      {
+        "root": "/home/ubuntu/work/ds_main/sim_1",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s1:curation/sim_s1_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      },
+      {
+        "root": "/home/ubuntu/work/ds_main/sim_2",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s2:curation/sim_s2_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      },
+      {
+        "root": "/home/ubuntu/work/ds_main/sim_3",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s3:curation/sim_s3_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      }
+    ],
+    "cosmos": [
+      {
+        "root": "/home/ubuntu/work/ds_main/cosmos_0",
+        "source_spec": "/home/ubuntu/work/datasets/local/cosmos_s0:curation/cosmos_s0_curation.json",
+        "episodes": 36,
+        "dropped_by_cosmos_reason": [
+          2,
+          16,
+          24,
+          26,
+          32,
+          41,
+          42,
+          43,
+          44
+        ]
+      },
+      {
+        "root": "/home/ubuntu/work/ds_main/cosmos_1",
+        "source_spec": "/home/ubuntu/work/datasets/local/cosmos_s2:curation/cosmos_s2_curation.json",
+        "episodes": 34,
+        "dropped_by_cosmos_reason": [
+          2,
+          3,
+          7,
+          11,
+          12,
+          16,
+          24,
+          26,
+          27,
+          32,
+          35
+        ]
+      }
+    ],
+    "real": []
+  },
+  "main": {
+    "path": "/home/ubuntu/work/ds_main/main",
+    "episodes_per_source": {
+      "sim": 180,
+      "cosmos": 70,
+      "real": 0
+    },
+    "total": 250
+  },
+  "ablation": {
+    "path": "/home/ubuntu/work/ds_main/ablation",
+    "episodes_per_source": {
+      "sim": 180,
+      "cosmos": 0,
+      "real": 0
+    },
+    "total": 180
+  }
+}

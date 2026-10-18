@@ -1,0 +1,36 @@
+{
+  "act_main_v2": {
+    "episodes_per_source": {
+      "sim": 180,
+      "cosmos": 70,
+      "real": 25
+    },
+    "total": 275,
+    "real_source": "real_demos2 (green pad + 9-spot grid, judging setup); first real batch excluded",
+    "sim_to_real_joint_remap": {
+      "sign": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "offset": [
+        6.699999809265137,
+        15.300000190734863,
+        0.5,
+        3.299999952316284,
+        11.100000381469727,
+        0.0
+      ]
+    }
+  },
+  "act_real": {
+    "episodes_per_source": {
+      "sim": 0,
+      "cosmos": 0,
+      "real": 25
+    }
+  }
+}

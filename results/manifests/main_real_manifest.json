@@ -1,0 +1,12 @@
+{
+  "main_real": {
+    "path": "/home/ubuntu/work/ds_real/main",
+    "episodes_per_source": {
+      "sim": 180,
+      "cosmos": 70,
+      "real": 25
+    },
+    "total": 275
+  },
+  "real_curation_applied": false
+}

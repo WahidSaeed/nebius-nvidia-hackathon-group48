@@ -1,0 +1,121 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def PhysicsScene "physicsScene"
+    {
+        float physics:gravityMagnitude = 9.81
+    }
+
+    def Cube "ground" (
+        prepend apiSchemas = ["PhysicsCollisionAPI"]
+    )
+    {
+        double size = 1
+        float3 xformOp:scale = (1, 1, 0.01)
+        double3 xformOp:translate = (0, 0, -0.005)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Xform "cube_25mm_red" (
+        prepend references = @./cube_25mm_red.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.15, -0.08, 0.013500000000000002)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_25mm_green" (
+        prepend references = @./cube_25mm_green.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.06999999999999999, -0.08, 0.013500000000000002)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_25mm_blue" (
+        prepend references = @./cube_25mm_blue.usda@
+    )
+    {
+        double3 xformOp:translate = (0.010000000000000009, -0.08, 0.013500000000000002)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_25mm_yellow" (
+        prepend references = @./cube_25mm_yellow.usda@
+    )
+    {
+        double3 xformOp:translate = (0.09, -0.08, 0.013500000000000002)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_30mm_red" (
+        prepend references = @./cube_30mm_red.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.15, 0, 0.016)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_30mm_green" (
+        prepend references = @./cube_30mm_green.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.06999999999999999, 0, 0.016)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_30mm_blue" (
+        prepend references = @./cube_30mm_blue.usda@
+    )
+    {
+        double3 xformOp:translate = (0.010000000000000009, 0, 0.016)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_30mm_yellow" (
+        prepend references = @./cube_30mm_yellow.usda@
+    )
+    {
+        double3 xformOp:translate = (0.09, 0, 0.016)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_40mm_red" (
+        prepend references = @./cube_40mm_red.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.15, 0.08, 0.021)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_40mm_green" (
+        prepend references = @./cube_40mm_green.usda@
+    )
+    {
+        double3 xformOp:translate = (-0.06999999999999999, 0.08, 0.021)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_40mm_blue" (
+        prepend references = @./cube_40mm_blue.usda@
+    )
+    {
+        double3 xformOp:translate = (0.010000000000000009, 0.08, 0.021)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def Xform "cube_40mm_yellow" (
+        prepend references = @./cube_40mm_yellow.usda@
+    )
+    {
+        double3 xformOp:translate = (0.09, 0.08, 0.021)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+}
+

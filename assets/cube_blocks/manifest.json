@@ -1,0 +1,171 @@
+{
+  "chamfer_mm": 1.0,
+  "print": {
+    "density_g_cm3": 1.24,
+    "wall_mm": 1.2,
+    "infill": 0.2
+  },
+  "physics": {
+    "static_friction": 0.8,
+    "dynamic_friction": 0.6,
+    "restitution": 0.0
+  },
+  "assets": [
+    {
+      "name": "cube_25mm_red",
+      "size_mm": 25,
+      "color": "red",
+      "rgb": [
+        0.8,
+        0.08,
+        0.08
+      ],
+      "usd": "usd/cube_25mm_red.usda",
+      "stl": "stl/cube_25mm.stl",
+      "mass_kg_estimate": 0.0077
+    },
+    {
+      "name": "cube_25mm_green",
+      "size_mm": 25,
+      "color": "green",
+      "rgb": [
+        0.1,
+        0.6,
+        0.15
+      ],
+      "usd": "usd/cube_25mm_green.usda",
+      "stl": "stl/cube_25mm.stl",
+      "mass_kg_estimate": 0.0077
+    },
+    {
+      "name": "cube_25mm_blue",
+      "size_mm": 25,
+      "color": "blue",
+      "rgb": [
+        0.08,
+        0.25,
+        0.8
+      ],
+      "usd": "usd/cube_25mm_blue.usda",
+      "stl": "stl/cube_25mm.stl",
+      "mass_kg_estimate": 0.0077
+    },
+    {
+      "name": "cube_25mm_yellow",
+      "size_mm": 25,
+      "color": "yellow",
+      "rgb": [
+        0.95,
+        0.8,
+        0.05
+      ],
+      "usd": "usd/cube_25mm_yellow.usda",
+      "stl": "stl/cube_25mm.stl",
+      "mass_kg_estimate": 0.0077
+    },
+    {
+      "name": "cube_30mm_red",
+      "size_mm": 30,
+      "color": "red",
+      "rgb": [
+        0.8,
+        0.08,
+        0.08
+      ],
+      "usd": "usd/cube_30mm_red.usda",
+      "stl": "stl/cube_30mm.stl",
+      "mass_kg_estimate": 0.0124
+    },
+    {
+      "name": "cube_30mm_green",
+      "size_mm": 30,
+      "color": "green",
+      "rgb": [
+        0.1,
+        0.6,
+        0.15
+      ],
+      "usd": "usd/cube_30mm_green.usda",
+      "stl": "stl/cube_30mm.stl",
+      "mass_kg_estimate": 0.0124
+    },
+    {
+      "name": "cube_30mm_blue",
+      "size_mm": 30,
+      "color": "blue",
+      "rgb": [
+        0.08,
+        0.25,
+        0.8
+      ],
+      "usd": "usd/cube_30mm_blue.usda",
+      "stl": "stl/cube_30mm.stl",
+      "mass_kg_estimate": 0.0124
+    },
+    {
+      "name": "cube_30mm_yellow",
+      "size_mm": 30,
+      "color": "yellow",
+      "rgb": [
+        0.95,
+        0.8,
+        0.05
+      ],
+      "usd": "usd/cube_30mm_yellow.usda",
+      "stl": "stl/cube_30mm.stl",
+      "mass_kg_estimate": 0.0124
+    },
+    {
+      "name": "cube_40mm_red",
+      "size_mm": 40,
+      "color": "red",
+      "rgb": [
+        0.8,
+        0.08,
+        0.08
+      ],
+      "usd": "usd/cube_40mm_red.usda",
+      "stl": "stl/cube_40mm.stl",
+      "mass_kg_estimate": 0.0263
+    },
+    {
+      "name": "cube_40mm_green",
+      "size_mm": 40,
+      "color": "green",
+      "rgb": [
+        0.1,
+        0.6,
+        0.15
+      ],
+      "usd": "usd/cube_40mm_green.usda",
+      "stl": "stl/cube_40mm.stl",
+      "mass_kg_estimate": 0.0263
+    },
+    {
+      "name": "cube_40mm_blue",
+      "size_mm": 40,
+      "color": "blue",
+      "rgb": [
+        0.08,
+        0.25,
+        0.8
+      ],
+      "usd": "usd/cube_40mm_blue.usda",
+      "stl": "stl/cube_40mm.stl",
+      "mass_kg_estimate": 0.0263
+    },
+    {
+      "name": "cube_40mm_yellow",
+      "size_mm": 40,
+      "color": "yellow",
+      "rgb": [
+        0.95,
+        0.8,
+        0.05
+      ],
+      "usd": "usd/cube_40mm_yellow.usda",
+      "stl": "stl/cube_40mm.stl",
+      "mass_kg_estimate": 0.0263
+    }
+  ]
+}

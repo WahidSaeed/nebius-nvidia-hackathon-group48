@@ -1,0 +1,647 @@
+{
+  "source": "cosmos",
+  "dataset_root": "/home/ubuntu/work/datasets/local/cosmos_s0",
+  "camera": "front",
+  "judges": [
+    {
+      "name": "cosmos_reason",
+      "model": "nvidia/Cosmos-Reason1-7B"
+    }
+  ],
+  "decision_rule": "drop if Cosmos Reason placed_on_pad==false or quality<6; 2nd judge may veto when it sees both grasp and place fail",
+  "num_scored": 45,
+  "num_kept": 45,
+  "dropped_episodes": [],
+  "episodes": {
+    "0": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "1": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "2": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and no collisions or hesitations during the process."
+        }
+      }
+    },
+    "3": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "4": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and places it onto the green pad without any noticeable hesitation, collision, or drop. The motion appears smooth and controlled."
+        }
+      }
+    },
+    "5": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and no delays."
+        }
+      }
+    },
+    "6": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the small red cube and places it onto the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations observed during the process."
+        }
+      }
+    },
+    "7": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "8": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "9": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "10": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "11": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the small red cube and places it onto the green pad without any noticeable issues. The motion appears smooth and precise, with no signs of collisions or hesitation. The placement is accurate, ensuring the cube rests securely on the pad."
+        }
+      }
+    },
+    "12": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and moves it smoothly to the green pad without any hesitation or collisions. The placement is precise, and the gripper releases the cube gently onto the pad."
+        }
+      }
+    },
+    "13": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and moves it smoothly to the green pad without any hesitation or collisions. The placement is precise, and the gripper releases the cube gently onto the pad."
+        }
+      }
+    },
+    "14": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "15": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "16": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "17": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "18": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and places it accurately on the green pad without any noticeable hesitation or error in motion."
+        }
+      }
+    },
+    "19": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "20": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "21": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "22": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "23": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it onto the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "24": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "25": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and no collisions or hesitations during the process."
+        }
+      }
+    },
+    "26": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating efficient control and execution."
+        }
+      }
+    },
+    "27": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "28": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it onto the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "29": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robotic arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "30": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the small red cube and places it onto the green pad without any noticeable issues. The motion appears smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "31": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "32": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and moves it smoothly to the green pad without any collisions or hesitations. The placement is precise, and the gripper releases the cube gently onto the pad."
+        }
+      }
+    },
+    "33": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it onto the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and no delays."
+        }
+      }
+    },
+    "34": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "35": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "36": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "37": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "38": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "39": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and no collisions or hesitations during the process."
+        }
+      }
+    },
+    "40": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and no delays."
+        }
+      }
+    },
+    "41": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube, lifts it, moves it to the green pad, and releases it smoothly without any noticeable jitters or collisions."
+        }
+      }
+    },
+    "42": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the red cube, lifts it smoothly, and places it accurately on the green pad without any noticeable hesitation or collision. The entire process appears clean and efficient."
+        }
+      }
+    },
+    "43": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    },
+    "44": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the red cube and places it on the green pad without any noticeable issues. The motion appears smooth and precise, with no collisions or hesitations."
+        }
+      }
+    }
+  }
+}

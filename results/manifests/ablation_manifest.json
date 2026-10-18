@@ -1,0 +1,51 @@
+{
+  "camera": "observation.images.front only (wrist removed: judging station has one fixed camera)",
+  "sources": {
+    "sim": [
+      {
+        "root": "/home/ubuntu/work/ds_abl/sim_0",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s0:curation/sim_s0_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      },
+      {
+        "root": "/home/ubuntu/work/ds_abl/sim_1",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s1:curation/sim_s1_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      },
+      {
+        "root": "/home/ubuntu/work/ds_abl/sim_2",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s2:curation/sim_s2_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      },
+      {
+        "root": "/home/ubuntu/work/ds_abl/sim_3",
+        "source_spec": "/home/ubuntu/work/datasets/local/sim_s3:curation/sim_s3_curation.json",
+        "episodes": 45,
+        "dropped_by_cosmos_reason": []
+      }
+    ],
+    "cosmos": [],
+    "real": []
+  },
+  "main": {
+    "path": "/home/ubuntu/work/ds_abl/main",
+    "episodes_per_source": {
+      "sim": 180,
+      "cosmos": 0,
+      "real": 0
+    },
+    "total": 180
+  },
+  "ablation": {
+    "path": "/home/ubuntu/work/ds_abl/ablation",
+    "episodes_per_source": {
+      "sim": 180,
+      "cosmos": 0,
+      "real": 0
+    },
+    "total": 180
+  }
+}

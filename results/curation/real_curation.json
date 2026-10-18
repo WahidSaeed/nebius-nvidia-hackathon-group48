@@ -1,0 +1,395 @@
+{
+  "source": "real",
+  "dataset_root": "/home/ubuntu/work/datasets/real_demos",
+  "camera": "front",
+  "judges": [
+    {
+      "name": "cosmos_reason",
+      "model": "nvidia/Cosmos-Reason1-7B"
+    }
+  ],
+  "decision_rule": "drop if Cosmos Reason placed_on_pad==false or quality<5; 2nd judge may veto when it sees both grasp and place fail",
+  "num_scored": 25,
+  "num_kept": 16,
+  "dropped_episodes": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14,
+    19
+  ],
+  "episodes": {
+    "0": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the blue cube and places it on the black cloth without any noticeable issues. The motion appears smooth and precise, indicating effective control and coordination."
+        }
+      }
+    },
+    "1": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the blue cube and places it on the black cloth without any noticeable issues. The motion appears smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "2": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the blue cube and places it on the black cloth without any noticeable issues. The motion appears smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "3": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 0,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube but fails to secure it properly. It then moves the cube towards a black cloth on the left side of the frame, placing it there instead of the intended green pad. The motion appears somewhat unsteady, indicating potential issues with the gripper's ability to maintain a firm hold."
+        }
+      }
+    },
+    "4": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the blue cube and places it on the black cloth without any noticeable issues. The movements are smooth and precise, indicating effective control and no delays."
+        }
+      }
+    },
+    "5": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the blue cube and places it on the black cloth without any noticeable issues. The movements are smooth and precise, indicating effective control and coordination."
+        }
+      }
+    },
+    "6": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 0,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube but fails to secure it properly. It then moves the cube toward a black cloth on the left side of the frame, placing it there instead of the intended green pad. The motion appears somewhat unsteady, indicating potential issues with grip or programming."
+        }
+      }
+    },
+    "7": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": false,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 8,
+          "notes": "The robot arm successfully picks up the blue cube and moves it towards the black cloth. However, it does not place the cube on the green pad as instructed. The motion appears smooth without any collisions or drops, indicating a controlled execution despite the missing final step."
+        }
+      }
+    },
+    "8": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 0,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube instead of a red one, indicating a color recognition error. It successfully grasps the cube but then drops it back onto the table without placing it on the green pad. The motion appears somewhat jerky and lacks precision."
+        }
+      }
+    },
+    "9": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 1,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube but fails to secure it properly. It then tries again, successfully grasping the cube and placing it on the black cloth."
+        }
+      }
+    },
+    "10": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the blue cube and places it on the black cloth without any noticeable issues. The movements are smooth and precise, indicating effective control and coordination."
+        }
+      }
+    },
+    "11": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 1,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube instead of the red one, indicating a color recognition error. After successfully grasping the blue cube, it moves towards the black cloth but drops the cube onto it accidentally. The robot then tries again, this time mistakenly targeting the black cloth itself before placing it back down."
+        }
+      }
+    },
+    "12": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the blue cube and places it on the black cloth without any noticeable issues. The movements are smooth and precise, indicating effective control and no delays."
+        }
+      }
+    },
+    "13": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 0,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube but appears to miss or fail to secure it properly. The cube remains on the black cloth throughout the sequence, indicating a lack of successful grasping. The robot's movements seem somewhat erratic, suggesting potential issues with alignment or grip mechanics."
+        }
+      }
+    },
+    "14": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 0,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube instead of the red one shown in the task. It moves towards the black cloth, picks up the blue cube, and places it on the black cloth without releasing it properly."
+        }
+      }
+    },
+    "15": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the blue cube and places it on the black cloth without any noticeable issues. The movements are smooth and precise, indicating effective control and coordination."
+        }
+      }
+    },
+    "16": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasped the small red cube and placed it onto the green pad without any noticeable issues. The motion was smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "17": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the blue cube and places it on the black cloth without any noticeable issues. The movements are smooth and precise, indicating effective control and no delays."
+        }
+      }
+    },
+    "18": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the blue cube and places it on the black cloth without any noticeable issues. The motion appears smooth and precise, indicating effective control and coordination."
+        }
+      }
+    },
+    "19": {
+      "keep": false,
+      "drop_reasons": [
+        "cosmos: not placed on pad"
+      ],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": false,
+          "placed_on_pad": false,
+          "motion_clean": false,
+          "num_regrasps": 0,
+          "quality": 5,
+          "notes": "The robot arm attempts to pick up a blue cube from a black cloth but fails to grasp it securely. It then moves away without successfully placing the cube on the intended green pad."
+        }
+      }
+    },
+    "20": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the blue cube and places it on the black cloth without any noticeable issues. The motion appears smooth and precise, indicating effective control and alignment."
+        }
+      }
+    },
+    "21": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the blue cube and places it on the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and no collisions or hesitations during the task."
+        }
+      }
+    },
+    "22": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the blue cube and moves it smoothly to the black cloth, placing it gently without any noticeable hesitation or collision. The task is completed efficiently."
+        }
+      }
+    },
+    "23": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully grasps the small red cube and places it onto the green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and execution."
+        }
+      }
+    },
+    "24": {
+      "keep": true,
+      "drop_reasons": [],
+      "scores": {
+        "cosmos_reason": {
+          "grasp_success": true,
+          "placed_on_pad": true,
+          "motion_clean": true,
+          "num_regrasps": 0,
+          "quality": 9,
+          "notes": "The robot arm successfully picks up the small red cube and places it on the flat green pad without any noticeable issues. The movements are smooth and precise, indicating effective control and coordination."
+        }
+      }
+    }
+  }
+}

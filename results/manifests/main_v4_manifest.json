@@ -1,0 +1,12 @@
+{
+  "act_main_v4": {
+    "episodes_per_source": {
+      "sim": 180,
+      "cosmos": 70,
+      "real": 25
+    },
+    "total": 275,
+    "sim_joint_remap": null,
+    "real_source": "real_demos3 only (third recording, green pad + 9-spot grid); earlier real batches excluded"
+  }
+}
